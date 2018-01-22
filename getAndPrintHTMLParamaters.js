@@ -1,5 +1,5 @@
 
-module.exports = function getAndPrintHTML (options, callback) {
+module.exports = function getHTML (options, callback) {
 
   var https = require('https');
 

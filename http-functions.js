@@ -1,4 +1,4 @@
-var getAndPrintHTML = require('./getAndPrintHTMLParamaters');
+var getHTML = require('./getAndPrintHTMLParamaters');
 
 var requestOptions = {
   host: 'sytantris.github.io',
@@ -9,4 +9,4 @@ function logData(data) {
     console.log(data);
   }
 
-getAndPrintHTML(requestOptions, logData);
+getHTML(requestOptions, logData);
